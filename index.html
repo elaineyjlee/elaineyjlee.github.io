@@ -205,7 +205,7 @@
             <span>Coming soon</span>
             <p> <a target="_blank" href=""></a></p>
           </li>
-        </ul>  
+        </ul>
       </li>
       <li class="def">
         <h3 class="header" style="width: 230px;">Profiles</h3>
@@ -342,11 +342,13 @@
 
     });
     $('.def > ul > li > p').hide();
+    $('.def > ul > li:last-child').append('<br><br>');
+    
     $('.def > ul > li > span').click(function(){
-
+      
       $(this).parent().find('p').slideToggle();
     });
-    
+    $('.def > ul > li > span').click();
     
    
     
