@@ -134,10 +134,7 @@
     .def > ul > li > span {
       font-size: 14px;
     }
-    .def > ul > li > span:hover {
-      cursor: pointer;
-      color: #CD5A45;
-    }
+
     .smaller {
       font-size: 24px;
     }
@@ -342,14 +339,7 @@
 
     });
     
-    $('.def > ul > li > p').hide();
     $('.def > ul > li:last-child').append('<br>');
-    
-    $('.def > ul > li > span').click(function(){
-      
-      $(this).parent().find('p').slideToggle();
-    });
-    $('.def > ul > li > span').click();
     
    
     
