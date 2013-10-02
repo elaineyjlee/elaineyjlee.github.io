@@ -1,1 +1,0 @@
-![](/travel_images/many_many_cats.jpg)
